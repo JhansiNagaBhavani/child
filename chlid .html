@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding:0px;
+         margin:0px;
+         box-sizing: border-box;
+  }
+.container{
+    background-color: rgb(192, 62, 6);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+          'navbar navbar navbar navbar navbar navbar navbar navbar navabar'
+          'navbar navbar navbar navbar navbar navbar navbar navbar navabar'
+          'aside some1 some2 header header header header article article'
+          'aside some1 some2 header header header header article article'
+          'aside some3 some3 header header header header some4 some5'
+          'aside some3 some3 header header header header some4 some5'
+          'aside some3 some3 header header header header some4 some5'
+          'footer footer footer footer footer footer footer footer footer'
+          'footer footer footer footer footer footer footer footer footer'
+;
+
+    
+}
+.item1{
+    height:100%;
+    width: 100%;
+    background-color: rgb(192, 62, 6);
+    grid-area: navbar;
+}
+.item2{
+    height:100%;
+    width: 100%;
+    background-color: rgb(236, 9, 47);
+    grid-area: aside; 
+}
+.item3{
+    height:  100%;
+    width:   100%;
+    background-color: rgb(3, 170, 248) ;
+    grid-area: some1;
+}
+.item4{
+    height:100%;
+    width: 100%;
+    background-color:rgb(255, 165, 0) ;
+    grid-area: some2;
+}
+.item5{
+    height:100%;
+    width: 100%;
+    background-color:rgb(212, 117, 117) ;
+    grid-area: some3;
+}
+.item6{
+    height:100%;
+    width: 100%;
+    background-color: rgb(187, 4, 174);
+    grid-area: header;
+}
+.item7{
+    height:  100%;
+    width:   100%;
+    background-color: rgb(248, 13, 248) ;
+    grid-area: article;
+}
+.item8{
+    height:100%;
+    width: 100%;
+    background-color: rgb(203, 13, 159) ;
+    grid-area: some4;
+}
+.item9{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(3, 184, 51) ;
+    grid-area: some5;
+}
+.item10{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(9, 9, 219);
+    grid-area: footer;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="item1"><h1>Navbar</h1></div>
+        <div class="item2"><h1>aside</h1></div>
+        <div class="item3"><h1>some1</h1></div>
+        <div class="item4"><h1>some2</h1></div>
+        <div class="item5"><h1>some3</h1></div>
+        <div class="item6"><h1>Header</h1></div>
+        <div class="item7"><h1>Articles</h1></div>
+        <div class="item8"><h1>some4</h1></div>
+        <div class="item9"><h1>some5</h1></div>
+        <div class="item10"><h1>Footer</h1></div>
+    </div>
+</body>
+</html>
